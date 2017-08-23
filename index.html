@@ -11,35 +11,19 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 <body>
-	<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">MDABEK</a>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#Bio">Bio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Career">Career</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Hobby">Hobby</a>
-          </li>
-
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+	  <a class="navbar-brand" href="#"><img src="img/hieroglyph_small.jpg" width="30" height="40" alt=""> MDABEK</a>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+          <button class="btn btn-link my-2 my-sm-0"><!--li class="nav-item"--><a class="nav-link" href="#Bio">BIO</a><!--/li--></button>
+          <button class="btn btn-link my-2 my-sm-0"><!--li class="nav-item"--><a class="nav-link" href="#Education">EDUCATION</a><!--/li--></button>
+          <button class="btn btn-link my-2 my-sm-0"><!--li class="nav-item"--><a class="nav-link" href="#Career">CAREER</a><!--/li--></button>
+          <button class="btn btn-link my-2 my-sm-0"><!--li class="nav-item"--><a class="nav-link" href="#Hobby">HOBBY</a><!--/li--></button></button>
+		</ul>
+	  </div>
+	</nav>
+	
 	<div class="jumbotron">
       <div class="container">
         <h1 class="display-3">CV</h1>
@@ -51,7 +35,7 @@
 	<div class="bs-docs-featurette">
       <div class="container">
         <h1 class="page-header" id="Bio">Bio</h1> <hr>
-        <p>Born in 1981, in Upper Silesia, Poland.<br></p>
+        <p>Born in 1981, in Upper Silesia, Poland.</p>
 		<p>Interested in computers since early childhood (first played with ZX Spectrum when I was six).
 		Started programming in secondary school. Assembly language as the first lamguage to learn 
 		was not that miserable choice after all. Did some 3D graphics programming at the time 
@@ -88,158 +72,207 @@
       </div>
     </div>
 	
-	<div class="bs-docs-featurette">
-      <div class="container">
-        <h1 class="page-header" id="Career">Career</h1> <hr>
-		<div class="float-left"><u>Software Architect</u></div>
-		<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>
-		<div class="clearfix"></div>
-		<div class="float-left">Android Audio</div>
-		<div class="float-right">September 2016 - present</div>		
-		<div class="clearfix"></div>
-		
-	<p>Used technologies:
-		<li>Audio, AVB/TSN, SoC</li>
-		<li>C/C++, Java, Android</li>
-		<li>git, JIRA</li>
-	</p>
-	<p>
-Responsibilities:
--	Create new and assess existing requirements for Android Audio HAL, based on customer input.
--	Create demos for customers.
--	Integrate 3rd party components to Android Audio HAL to extend functionality.
-Main achievements:
--	Managed the team to deliver requirements for few milestones.
--	Managed the team to create demos for customers.
-</p>
-Software Designer                                                June 2016 – August 2016
-Intel Technology Poland, Gdañsk
-Intel Sensor Hub
-Used technologies: C, RTOS, Tensilica DSP
-Responsibilities:
--	Device porting strategy of existing FW to new HW architecture,
--	Prepare the documentation of existing FW and propose changes,
--	Provide proof of concept of working FW
-Main achievements:
--	Basic functionality, for single sensor algorithm has been developed
--	Challenges and solutions documented
-Software Engineer                                                December 2011 – June 2016
-Intel Technology Poland, Gdañsk
-Wireless Serial Extension/MA USB
-Used technologies: C, WDF, WinDDK, WinDbg, WPP/ETW, LeCroy USB analyzer
-Responsibilities:
--	Contribute to an industry specification (WSE 1.2 from WiGig Alliance and MA USB from USB-IF)
--	SW driver stack design, implementation and development.
--	Integration of the SW driver stack with HW.
--	Create SW simulation of HW prior to HW availability.
-Main achievements:
--	Granted 3 patents. Coauthored few other patent claims.
--	Released WSE 1.2 specification which became a foundation of MA-USB specification lead by USB-IF.
--	Successfully led a team which integrated USB SW stack with the HW.
-Software Engineer                                                November 2011 – December 2011
-Intel Technology Poland, Gdañsk
-Android/Linux kernel SW stack USB engineer
-Responsibilities: 
--	Create a requirement list for Linux Kernel xHCI driver.
--	Assessment of the 3rd party HW.
-Main achievements:
--	List reviewed and approved by the Linux Kernel developer.
--	Identified bugs in the 3rd party HW.
-Software Engineer                                                           May 2011 – November 2011
-Intel Technology Poland, Gdañsk
-USB 3.0 Windows SW device stack engineer.
-Used technologies: C, WinDDK, WinDbg, WPP/ETW, LeCroy USB analyzer
-Responsibilities:
--	SW driver stack design and implementation to a specification
--	Proof Of Concepts – design and implementation
--	Design and development of a SW driver stack from scratch in WDF
-Main achievements:
--	ACPI tweaking to emulate PCI device on a different bus,
--	High level design of a low layer driver, which is a foundation for a device stack
+	<div class="container">
+	  <div class = "row">
+		  <div class="col-12 col-sm-7 col-lg-9">
+			<h1 class="page-header" id="Career">Career</h1> <hr>
+			<div class="float-left"><u>Software Architect</u></div>
+			<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>
+			<div class="clearfix"></div>
+			<div class="float-left">Android Audio</div>
+			<div class="float-right">September 2016 - present</div>		
+			<div class="clearfix"></div>
+			<p></p><p>
+				Used technologies:
+				<li>Audio, AVB/TSN, SoC</li>
+				<li>C/C++, Java, Android</li>
+				<li>git, JIRA</li>
+			</p>
+			<p>
+				Responsibilities:
+				<li>Create new and assess existing requirements for Android Audio HAL, based on customer input.</li>
+				<li>Create demos for customers.</li>
+				<li>Integrate 3rd party components to Android Audio HAL to extend functionality.</li>
+			</p>
+			<p>
+				Main achievements:
+				<li>Managed the team to deliver requirements for multiple milestones.</li>
+				<li>Managed the team to create demos for customers.</li>
+			</p>
+			
+			<div class="float-left"><u>Software Designer</u></div>
+			<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>
+			<div class="clearfix"></div>
+			<div class="float-left">Intel Sensor Hub</div>
+			<div class="float-right">June 2016 - August 2016</div>		
+			<div class="clearfix"></div>
+			<p></p><p>
+				Used technologies: 
+				<li>C </li>
+				<li>RTOS</li>
+				<li>I2C, SPI, Tensilica DSP</li>
+			</p>
+			<p>
+				Responsibilities:
+				<li>Device porting strategy of existing FW to new HW architecture,</li>
+				<li>Prepare the documentation of existing FW and propose changes,</li>
+				<li>Provide proof of concept of working FW</li>
+			</p>
+			<p>
+				Main achievements:
+				<li>Basic functionality, for single sensor algorithm has been developed</li>
+				<li>Challenges and solutions documented</li>
+			</p>
+			<div class="float-left"><u>Software Engineer</u></div>
+			<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>
+			<div class="clearfix"></div>
+			<div class="float-left">Wireless Serial Extension/MA USB</div>
+			<div class="float-right">December 2011 - June 2016</div>		
+			<div class="clearfix"></div>
+			<p></p><p>
+				Used technologies: 
+				<li>C, C++, Python</li>
+				<li>WDF, WinDDK, WinDBG, WPP/ETW</li>
+				<li>USB, WiGig, LeCroy USB analyzer</li>
+			</p>
+			<p>
+				Responsibilities:
+				<li>Contribute to an industry specification (WSE 1.2 from WiGig Alliance and MA USB from USB-IF)</li>
+				<li>SW driver stack design, implementation and development.</li>
+				<li>Integration of the SW driver stack with HW.</li>
+				<li>Create SW simulation of HW prior to HW availability.</li>
+			</p>
+			<p>
+				Main achievements:
+				<li>Granted 4 patents. Co-authored few other patent claims.</li>
+				<li>Released WSE 1.2 specification which became a foundation of MA-USB specification lead by USB-IF.</li>
+				<li>Designed and implemented pre-HW (shift left) strategy for functional SW validation.</li>
+			</p>
+			
+			<div class="float-left"><u>Software Engineer</u></div>
+			<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>			
+			<div class="clearfix"></div>
+			<div class="float-left">USB 3.0 Windows SW device stack engineer</div>
+			<div class="float-right">May 2008 - December 2011</div>
+			<div class="clearfix"></div>
+			<p></p><p>
+				Used technologies: 
+				<li>C, C++</li>
+				<li>WinDDK, WinDbg, WPP/ETW, Bullseye Coverage</li>
+				<li>LeCroy PCI analyzer, LeCroy USB analyzer</li>
+			</p>
+			<p>
+				Responsibilities:			
+				<li>SW driver stack design and implementation to a specification</li>
+				<li>Proof Of Concepts - design and implementation</li>
+				<li>Design and development of a SW driver stack from scratch in WDF</li>
+				<li>HW-SW integration (incl. debugging HW issues)</li>
+				<li>Design and implementation of requirements from internal customers</li>
+				<li>Debugging and fixing SW defects</li>
+				<li>Create a requirement list for Linux Kernel xHCI driver.</li>
+				<li>Assessment of the 3rd party HW.</li>
 
-Software Engineer                                                           November 2008 – May 2011
-Intel Technology Poland, Gdañsk
-USB 3.0 Windows SW host stack engineer.
-Used technologies: C, WinDDK, WinDbg, WPP/ETW, LeCroy PCI analyzer, LeCroy USB analyzer, Bullseye Coverage
-Responsibilities:
--	HW-SW integration (incl. debugging HW issues),
--	design and implementation of requirements from internal customers,
--	debugging and fixing SW defects,
--	SW driver stack design and implementation
-Main achievements:
--	implement WPP tracing in the driver stack with minimum code footprint,
--	being a part of successful integration of HW and SW,
--	developing a SW driver stack almost from scratch in WDF
-
-Software Engineer                                                           April 2008 – November 2008
-Intel Technology Poland, Gdañsk
-V-Pro external FW integrator and FW developer.
-Used technologies: C, V-Pro, oscilloscopes,
-Responsibilities: 
--	on-site integration with a customer on integration of external FW with V-Pro,
--	coordinate external company and internal developers to integrate 3rd party FW into V-Pro, 
--	collecting requirement from external customer,
--	design and implementation of required APIs for external customer,
-Main achievements: 
--	proof of concept integrated in 2 weeks,
--	working basic functionality of external FW
-Software Engineer                                                          September 2007 – April 2008
-Intel Technology Poland, Gdañsk
-Maintenance of V-Pro FW.
-Used technologies: C, V-Pro, Metaware tools
-Responsibilities: 
--	implementation of external customer requirements,
--	fixing SW defects,
-Main achievements: 
--	implementation of a feature based on previously reverse engineered modified Kerberos protocol
-Software Engineer                                                      March 2007 – September 2007
-Intel Technology Poland, Gdañsk
-V-Pro Linux tools / drivers.
-Used technologies: gcc+gdb, GNU auto tools, valgrind, Klocwork
-Responsibilities: 
--	Linux kernel driver for interaction with V-Pro FW, 
--	Linux tools and daemons
-Main achievements: 
--	Linux MEI driver received a positive response from kernel maintainer Andrew Morton, 
--	modify build system to utilize automake
-Software Engineer                                                                  May 2006 – March 2007
-Intel Technology Poland, Gdañsk
-V-Pro automated test design and development.
-Used technologies: .NET C#
-Responsibilities: 
--	design and implementation of automated test suits
-Main achievement: 
--	Fully automated V-Pro configuration
-Design Leader/Software Engineer                                          May 2005 – May 2006
-Control System, Gdañsk
-Design and implementation of company management system. The system was created from scratch using most recent technologies but key requirement was to remain backward compatible with company’s previous products.
-Used technologies: ASP .NET, C#, JavaScript
-Responsibilities: 
--	architecture and design of system core components, 
--	implementation of core components and frameworks
-Main achievement: 
--	the system reached release milestone and is still deployed in new companies
-Software Engineer                                                              February 2003 – May 2005
-Control System, Gdañsk
-Maintenance and customization of company management system. The system was used by logistics and trade companies to track orders, manage resources, etc.
-Used technologies: C, ncurses, C-Isam, gmake
-Responsibilities: 
--	customer support,
--	adding new features,
--	fixing defects
+			</p>
+			<p>
+				Main achievements:
+				<li>ACPI tweaking to emulate PCI device on a different bus</li>
+				<li>High level design of a low layer driver, which is a foundation for a device stack</li>
+				<li>Implemented WPP tracing in the driver stack with minimum code footprint</li>
+				<li>Being a part of successful integration of HW (incl. FPGA) and SW</li>
+				<li>Developing a SW driver stack almost from scratch in WDF</li>
+				<li>Identified bugs in the 3rd party HW.</li>
+			</p>
+			
+			<div class="float-left"><u>V-Pro external FW integrator, FW developer, validation automation engineer</u></div>
+			<div class="float-right"><b>Intel Technology Poland, GdaÅ„sk</b> </div>
+			<div class="clearfix"></div>
+			<div class="float-left">V-Pro</div>
+			<div class="float-right">May 2006 - November 2008</div>
+			<div class="clearfix"></div>
 	
+			<p></p><p>
+				Used technologies:
+				<li>C, .NET, Perl</li>
+				<li>gcc+gdb, GNU auto tools, valgrind, Klocwork</li>
+				<li>Metaware ARC, V-Pro, ARC, logic analyzers</li>
+			</p>
+			<p>
+				Responsibilities: 
+				<li>On-site integration with a customer on integration of external FW with V-Pro,</li>
+				<li>Coordinate external company and internal developers to integrate 3rd party FW into V-Pro</li>
+				<li>Collecting requirement from external customer</li>
+				<li>Design and implementation of automated test suits</li>
+				<li>Design and implementation of required APIs for external customer</li>
+				<li>Implementation of external customer requirements</li>
+				<li>FW maintenance</li>
+				<li>Linux kernel driver for interaction with V-Pro FW</li>
+				<li>Linux tools and daemons</li>
+			</p>
+			<p>
+				Main achievements: 
+				<li>Successfull 3rd party FW integration in just two weeks</li>
+				<li>Implementation of Microsoft compatible, reverse engineered, modified Kerberos protocol (GSS)</li>
+				<li>Linux MEI driver received a positive response from kernel maintainer Andrew Morton</li>
+				<li>Modify build system to utilize automake</li>
+				<li>Fully automated testing of V-Pro configuration</li>
+			</p>
+			<div class="float-left"><u>Design Leader/Software Engineer </u></div>
+			<div class="float-right"><b>Control System, GdaÅ„sk</b> </div>
+			<div class="clearfix"></div>
+			<div class="float-right">February 2003 - May 2006</div>
+			<div class="clearfix"></div>
 
-      </div>
-    </div>	
+			<p></p><p>
+				Used technologies: 
+				<li>C, ASP .NET, C#, JavaScript</li>
+				<li>SQL, C-ISAM, ncurses, gmake</li>
+			</p>
+			<p>
+				Responsibilities:
+				<li>Architecture and design of system core components</li>
+				<li>Implementation of core components and frameworks</li>
+				<li>Customer support</li>
+				<li>Adding new features</li>
+				<li>Fixing defects</li>
+			</p>
+			<p>
+				Main achievement: 
+				<li>The new system reached release milestone and is still deployed in new companies</li>
+			</p>
+		  </div>
+		  <div class="col-sm-5 col-lg-3">
+			<h1 class="page-header"> Patents </h1> <hr>
+		  </div>
+	  </div>
+    </div>
 	<div class="bs-docs-featurette">
       <div class="container">
         <h1 class="page-header" id="Hobby">Hobby</h1> <hr>
 		<div class="lead float-left"><u>Judo</u></div>
 		<div class="float-right"><b>since 2011</b> </div>
+		<div class="clearfix"></div>		
+		<div class="container">
+		  <div class="row align-items-center">		
+			<a href="https://www.youtube.com/watch?v=Imnc1XKtRs4"><img src="img/judo.jpg" width="150" height="200" alt="Judo: Jigoro Kano and Kyuzo Mifune" class="rounded-circle"/> </a>
+		  </div>
+  		</div>	
+		<p></p>
+		
+		<div class="lead float-left"><u>Pet projects</u></div>
+		<div class="float-right"><b>2017</b></div>
 		<div class="clearfix"></div>
-		<img src="img/judo.jpg" alt="Judo: Jigoro Kano and Kyuzo Mifune" class="rounded-circle"/>
+		<div class="container">
+		  <div class="row align-items-center">
+				Github
+				<a href="https://github.com/mdabek/"><img src="img/GitHub-Mark.png" width="200" height="200" alt="" class="rounded-circle"/> </a>
+		  </div>
+  		  <div class="row align-items-center">
+				MSP, Arduino, Raspberry Pi
+		  </div>
+  		</div>
 		<p></p>
       </div>
+	  
     </div>	
 	
 </body>
