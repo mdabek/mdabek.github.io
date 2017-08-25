@@ -14,10 +14,10 @@
 	  <a class="navbar-brand" href="#"><img src="img/hieroglyph_small.jpg" width="30" height="40" alt=""> MDABEK</a>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
-          <button class="btn btn-link my-2 my-sm-0"><a class="nav-link" href="#Bio">BIO</a></button>
-          <button class="btn btn-link my-2 my-sm-0"><a class="nav-link" href="#Education">EDUCATION</a></button>
-          <button class="btn btn-link my-2 my-sm-0"><a class="nav-link" href="#Career">CAREER</a></button>
-          <button class="btn btn-link my-2 my-sm-0"><a class="nav-link" href="#Hobby">HOBBY</a></button></button>
+          <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Bio">BIO</a></button>
+          <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Education">EDUCATION</a></button>
+          <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Career">CAREER</a></button>
+          <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Hobby">HOBBY</a></button></button>
 		</ul>
 	  </div>
 	</nav>
@@ -27,9 +27,11 @@
         <p class="display-5">This is an interactive CV of Marek Dabek. It is here to test and show basic frondend abilities</p>
       </div>
     </div>
-	<div class="bs-docs-featurette">
-      <div class="container">
-        <h1 class="page-header" id="Bio">Bio</h1> <hr>
+	<div class="bs-docs-featurette" id="Education">
+      <div class="container greybg">
+        <h1 class="page-header" id="Bio">Bio</h1> <hr>	
+      </div>
+	  <div class = "container">
         <p>Born in 1981, in Upper Silesia, Poland.</p>
 		<p>Interested in computers since early childhood (first played with ZX Spectrum when I was six).
 		Started programming in secondary school. Assembly language as the first lamguage to learn 
@@ -51,8 +53,10 @@
       </div>
     </div>
 	<div class="bs-docs-featurette" id="Education">
-      <div class="container">
+      <div class="container greybg">
         <h1 class="page-header">Education</h1> <hr>
+      </div>
+      <div class="container">
         <div class="float-left"><u>MSc of Computer Science</u></div>
 		<div class="float-right">December 2005</div>
 		<div class="clearfix"></div>
@@ -65,10 +69,12 @@
 		Department of Electronics and Computer Science Multimedia Techniques</p>
       </div>
     </div>
+      <div class="container greybg">
+		<h1 class="page-header" id="Career">Career</h1> <hr>
+     </div>
 	<div class="container">
 	  <div class = "row">
 		  <div class="col-12 col-sm-7 col-lg-9">
-			<h1 class="page-header" id="Career">Career</h1> <hr>
 			<div class="float-left"><u>Software Architect</u></div>
 			<div class="float-right"><b>Intel Technology Poland, Gdańsk</b> </div>
 			<div class="clearfix"></div>
@@ -235,13 +241,15 @@
 					});
 			    });
 			</script>
-			<div class="row" id="patents"></div>
+			<div class="row" style="background-color:#E8ECaa;color:#555555" id="patents"></div>
 		  </div>
 	  </div>
     </div>
 	<div class="bs-docs-featurette">
-      <div class="container">
+      <div class="container greybg">
         <h1 class="page-header" id="Hobby">Hobby</h1> <hr>
+      </div>
+      <div class="container">
 		  <div class="row">
 			<div class="col-5 col-sm-3 col-lg-3">
   			  <u>Judo</u>
