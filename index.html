@@ -228,7 +228,7 @@
 			<h1 class="page-header"> Patents </h1> <hr>
 			<script>
 				$(function() {
-					patentAPI = "http://www.patentsview.org/api/patents/query?q={%22_and%22:[{%22inventor_last_name%22:%22Dabek%22},{%22inventor_first_name%22:%22Marek%22}]}&f=[%22patent_id%22,%22patent_date%22,%22patent_title%22]"
+					patentAPI = "https://hook.io/mdabek/patentview_fwdr?q={%22_and%22:[{%22inventor_last_name%22:%22Dabek%22},{%22inventor_first_name%22:%22Marek%22}]}&f=[%22patent_id%22,%22patent_date%22,%22patent_title%22]"
 					$.getJSON(patentAPI, function(data) {
 						var items = [];
 						for (pat in data.patents) {
