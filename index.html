@@ -14,7 +14,7 @@
   </head>
 <body>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-	  <a class="navbar-brand" href="#"><img src="img/hieroglyph_small.jpg" width="30" height="40" alt=""> MDABEK</a>
+	  <a class="navbar-brand" href="#"><img src="img/hieroglyph_small.jpg" width="30" height="40" alt=""/> MDABEK</a>
 	  <div class=" navbar-collapse" id="navigationbar">
 	    <ul class="navbar-nav mr-auto">
           <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Bio">BIO</a></button>
@@ -23,7 +23,10 @@
           <button class="btn btn-link my-2 my-sm-0 greybg"><a class="nav-link" href="#Hobby">HOBBY</a></button></button>
 		</ul>
 	  </div>
+	  <a class="navbar-brand" href="tel:+48601305342"><img src="img/phone.png" width="40" height="40" alt=""/> </a>
+	  <a class="navbar-brand" href="mailto:mdabek@gmail.com"><img src="img/mail.png" width="40" height="30" alt=""/></a>
 	</nav>
+	
 	<div class="jumbotron">
       <div class="container">
         <h1 class="display-2">CV</h1>
@@ -238,7 +241,7 @@
 							items.push( "<li id='" + data.patents[pat].patent_id + "'>" + data.patents[pat].patent_title + " (" + data.patents[pat].patent_date + ")</li>" );
 						}
 						$( "<ul/>", {
-						   "class": "my-new-list",
+						   "class": "bs-docs-featurette",
 						   html: items.join( "" )
 						}).appendTo( "#patents" );
 					});
