@@ -1,0 +1,20 @@
+.gh-r-h{
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#EEEEEE, #BBBBBB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EEEEEE, #BBBBBB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EEEEEE, #BBBBBB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EEEEEE, #BBBBBB); /* Standard syntax */    
+    font-family : Lucida Console;
+}
+.gh-r-l{
+    margin : 3% 3% 3% 3%;
+ }
+ .gh-r-u{
+    border: 2px lightgrey;
+    border-style: none none solid none;
+ }
+.gh-r-d {
+    border: 1px solid #CCCCCC; 
+    font-family : Lucida Console;
+}

@@ -7,7 +7,9 @@
     <meta name="author" content="">
     <title>Marek Dabek CV</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/gh.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/github_repo.js"></script>
   </head>
 <body>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -251,28 +253,38 @@
       </div>
       <div class="container">
 		  <div class="row">
-			<div class="col-5 col-sm-3 col-lg-3">
-  			  <u>Judo</u>
+			<div class="col-5 col-sm-5 col-lg-5">
+  			  <h3><a href="https://www.youtube.com/watch?v=Imnc1XKtRs4"><u>Judo</u></a></h3>
 			</div>
 		    <div class="col-5 col-sm-2 col-lg-2">
 			   <a href="https://www.youtube.com/watch?v=Imnc1XKtRs4"><img src="img/judo.jpg" width="100" height="120" alt="Judo: Jigoro Kano and Kyuzo Mifune" class="rounded-circle"/> </a>
 			</div>
 		  </div>
 		<p></p>
-   	    <u>Pet projects</u>
+   	    <h3><u>Pet projects</u></h3>
 		<div class="clearfix"></div>
+		
 		<div class="container">
-		  <div class="row">
-			<div class="col-5 col-sm-3 col-lg-3">
-				Github projects
+		  <div class="row">			
+			<div class="col-7 col-sm-5 col-lg-5">
+				<div id="github-repos" username="mdabek">
+					<div class="gh-r-h"></div>
+					<div class="gh-r-d"></div>
+					<script>github_repo()</script>
+				</div>
 			</div>
-			<div class="col-5 col-sm-2 col-lg-2">
-				<a href="https://github.com/mdabek/"><img src="img/GitHub-Mark.png" width="100" height="100" alt="" class="rounded-circle"/> </a>
+			<div class="col-7 col-sm-2 col-lg-2">
 			</div>
 		  </div>
   		  <div class="row">
+			
 			<div class="col-5 col-sm-3 col-lg-3">
-				Ti MSP, Arduino, Raspberry Pi
+				<h4>uControllers</h4>
+				<ul>
+				<li>Ti MSP</li>
+				<li>Arduino</li>
+				<li>Raspberry Pi</li>
+				</ul>
 			</div>
 			<div class="col-5 col-sm-2 col-lg-2">
 			</div>
